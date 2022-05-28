@@ -1,4 +1,4 @@
-package com.example.demo.model.security;
+package com.example.demo.security;
 
 import com.auth0.jwt.JWT;
 import org.springframework.security.authentication.AuthenticationManager;
