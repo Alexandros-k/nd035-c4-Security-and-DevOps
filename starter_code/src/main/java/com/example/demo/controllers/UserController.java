@@ -77,7 +77,7 @@ public class UserController {
 		return ResponseEntity.ok(user);
 	}
 
-	@Bean
+	/*@Bean
 	TcpInput splunkService() throws IOException {
 		HttpService.setSslSecurityProtocol(SSLSecurityProtocol.TLSv1_2);
 // Create a map of arguments and add login parameters that you get from splunk
@@ -108,5 +108,5 @@ public class UserController {
 		}
 // Retrieve the input
 		return (TcpInput) service.getInputs().get("3000");
-	}
+	}*/
 }
